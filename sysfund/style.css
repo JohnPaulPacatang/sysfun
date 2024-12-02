@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    background-color: #e9ecef;
+}
+
+body{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.title {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-welcome {
+    color: #3a86ff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.first-row {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.student {
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(108, 117, 125, 0.5);
+    padding: 0px 0 15px 0;
+    text-align: center;
+    color: #555;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    background-color: #3a86ff;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.edit-btn{
+    margin-left: 20px;
+    color: #358600;
+    font-weight: bold;
+}
+
+.delete-btn{
+    color: #f5333f;
+    font-weight: bold;
+}
